@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="day1.css"/>
+		<title>End of times</title>
+	</head>
+
+	<body>
+		<h1><em>Vidya Games</em></h1>
+		<p><ul><li>Just a simple little guessing game</li></ul></p>
+
+		<img src="http://www.funnydam.com/uploads/hello_wallpaper_6811158945.jpg"/>
+
+		<h5>By Marshall Miller</h5>
+
+		<script>
+function gameStart() {
+	var number = 3;
+	var guess = prompt("Guess a number between 1 and 10!")
+		if (guess == number) {
+			alert("You win!")
+			alert("What do you win?")
+			alert("Nothing!")
+			gameEnd();
+		}
+
+	else {
+		if (guess < number) {
+			alert("Ooof!! Too low of a guess!")
+			gameStart();
+		}	
+		if (guess > number && guess <= 10) {
+			alert("Ouch! Too high! Try again!")
+			gameStart();
+		}
+		if (guess > 10) {
+			alert("What are you doing!!!")
+			alert("That number is greater than 10!")
+			gameStart();
+		}
+	}
+}
+
+function gameEnd() {
+	alert("That's all folks!");
+}
+gameStart();
+		</script>
+
+	</body>
+
+</html>

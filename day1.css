@@ -1,0 +1,30 @@
+h1 {
+	background-color: #FA8072;
+	font-family: Impact;
+	color: white;
+	font-weight: bold;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+}
+
+p {
+	background-color: #13A1CB;
+	font-family: Impact;
+	color: white;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-weight: bold;
+}
+
+h5 {
+	background-color: #728CB0;
+	font-family: Impact;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	position: relative;
+	bottom: -100px;
+
+}
+
